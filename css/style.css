@@ -1,0 +1,49 @@
+.error-form {
+  display: none;
+  color: red;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+button {
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 21px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+button :disabled{
+  background: lightgray;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+form {
+  max-width: 700px;
+  background: white;
+  padding: 2em;
+  margin: 0 auto;
+}
+.message{
+  background: green;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
